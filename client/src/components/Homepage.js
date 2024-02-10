@@ -5,9 +5,14 @@ import { useSate, useEffect } from 'react';
 function Homepage(props) {
     return (
         <>
-            <div className="Homepage-container">
+        <section class="section1"> 
+            <div className="Homepage-banner">
+                <img src="images/banner.jpg" alt="banner">
+                </img>
 
             </div>
+       
+         </section>
 
             <p> :D </p>
 
