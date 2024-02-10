@@ -8,6 +8,9 @@ function Homepage(props) {
             <div className="Homepage-container">
 
             </div>
+
+            <p> :D </p>
+
         </>
     )
 }
