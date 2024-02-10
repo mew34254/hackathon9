@@ -12,7 +12,7 @@ const db = mysql.createPool({
 });
 
 app.get("/", (req, res) => {
-    const sql_insert = ""
+    const sql_insert = "INSERT INTO testimonials (name, message) VALUES ('Janelle Monae', 'So excited to announce my partnership with Financial Fighters!');";
     db.query(sql_insert, (err, result) => {
         res.send('hello');
     });
