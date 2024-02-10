@@ -7,7 +7,7 @@ import Homepage from './components/Homepage';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
 import Resources from './components/Resources';
-import Testimonials from './components/AddTestimonial';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (

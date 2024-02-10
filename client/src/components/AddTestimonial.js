@@ -2,7 +2,7 @@ import './AddTestimonial.css';
 
 import { useState, useEffect } from 'react';
 
-function Testimonials(props) {
+function AddTestimonial(props) {
     const [name, setName] = useState("");
     const [message, setMessage] = useState("");
 
@@ -49,4 +49,4 @@ function Testimonials(props) {
     )
 }
 
-export default Testimonials;
+export default AddTestimonial;
