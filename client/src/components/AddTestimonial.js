@@ -31,7 +31,7 @@ function Testimonials(props) {
     return (
         <>
             <div className="AddTestimonial-container">
-                <form>
+                <form className="AddTestimonial-form">
                     <label>
                         <input placeholder="name" onChange={(event) => {
                             setName(event.target.value);
@@ -43,6 +43,7 @@ function Testimonials(props) {
                         }} />
                     </label>
                 </form>
+                <button className="AddTestimonial-submit-button" type="submit" onClick={submitTestimonial}>Submit</button>
             </div>
         </>
     )
