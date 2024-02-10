@@ -1,5 +1,48 @@
-.Homepage-container {
-    height: 100px;
-    width: 90%;
-    background-color: black;
+/* Banner componenets */
+.homepageBanner {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+}
+.textContainer {
+    position: absolute;
+    top: 130px; 
+    left: 80px; /* Adjust the distance from the left as needed */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    border-radius: 1px;
+}
+.bannerText {
+    text-align: left;
+    color: black 
+}
+.bannerText h1 {
+    font-size: 36px; 
+    margin-bottom: 10px;
+}
+.bannerText p {
+    font-size: 18px; 
+}
+.homepageBanner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Grid Components */
+.gridContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px; 
+}
+.gridItem {
+    flex-basis: calc(33.33% - 30px); /* Adjust width and margin as needed */
+    text-align: center;
+    padding: 60px;
+    background-color: #f2f2f2; /* Adjust background color as needed */
+}
+.gridItem img {
+    width: 50px; /* Adjust width of the icon */
+    height: 50px; /* Adjust height of the icon */
+    margin-bottom: 10px; /* Adjust margin as needed */
 }
