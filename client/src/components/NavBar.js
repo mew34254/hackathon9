@@ -1,8 +1,8 @@
-import './AboutUs.css';
+import './NavBar.css';
 import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
-function AboutUs(props) {
+function NavBar(props) {
 
 
     return (
@@ -12,4 +12,4 @@ function AboutUs(props) {
     )
 }
 
-export default AboutUs;
+export default NavBar;
