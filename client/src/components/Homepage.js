@@ -38,7 +38,7 @@ function Homepage(props) {
             </div>
         </section>
         </>
-    ); 
+    )
 }
 
 export default Homepage; 

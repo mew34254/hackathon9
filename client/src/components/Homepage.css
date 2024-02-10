@@ -36,13 +36,13 @@
     margin-top: 0px; 
 }
 .gridItem {
-    flex-basis: calc(33.33% - 30px); /* Adjust width and margin as needed */
+    flex-basis: calc(33.33% - 30px); 
     text-align: center;
     padding: 60px;
-    background-color: #f2f2f2; /* Adjust background color as needed */
+    background-color: #f2f2f2; 
 }
 .gridItem img {
-    width: 50px; /* Adjust width of the icon */
-    height: 50px; /* Adjust height of the icon */
-    margin-bottom: 10px; /* Adjust margin as needed */
+    width: 50px; 
+    height: 50px; 
+    margin-bottom: 10px; 
 }
