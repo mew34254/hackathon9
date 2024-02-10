@@ -1,5 +1,6 @@
 import './AboutUs.css';
 import NavBar from './NavBar';
+import Footer from './Footer';
 import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
@@ -11,7 +12,7 @@ function AboutUs(props) {
         <NavBar />
         <section class = "section1"> 
             <div className = "AboutUs-image" >
-                <img src = "" alt = "" />
+                <img src = "images/columbiaBlue.png" alt = "About Us Image" />
                 
             </div>
 
@@ -19,7 +20,10 @@ function AboutUs(props) {
 
         <section class = "section2"> 
             <div className = "AboutUs-text" >
-               <h1>About Us</h1>
+               <h1>About <br></br> Us</h1>
+            </div>
+
+            <div className = "AboutUs-subtext" >
                <h2>This is filler text.</h2>
             </div>
 
@@ -43,6 +47,7 @@ function AboutUs(props) {
             </div>
 
         </section>
+        <Footer />
         </>
     )
 }
