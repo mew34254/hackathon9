@@ -1,6 +1,6 @@
-import './Homepage.css'
+import './Homepage.css';
 import { useNavigate } from 'react-router-dom';
-import { useSate, useEffect, createElement } from 'react';
+import { useSate, useEffect } from 'react';
 
 function Homepage(props) {
     return (
