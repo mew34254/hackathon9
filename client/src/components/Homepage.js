@@ -6,16 +6,11 @@ import { useSate, useEffect } from 'react';
 function Homepage(props) {
     return (
         <>
-        <section class="section1">
-             <div className="homepageBanner"> 
-             <div className="textContainer">
-                <div className="bannerText">
-                    <h1>Welcome to Something</h1>
-                    <p>Some description....</p>
-             </div>
-             </div>
-                <img src= "images/banner.jpg" alt="banner" />
-            </div> 
+        <section class="section1"> 
+            <div className="Homepage-banner">
+                <img src= "images/banner.jpg" alt="banner"/>
+            </div>
+       
          </section>
 
          <section class="section2">
