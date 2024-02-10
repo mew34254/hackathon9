@@ -5,9 +5,9 @@ const app = express();
 const PORT = "8080";
 
 const db = mysql.createPool({
-    host: 'localhost',
-    user: 'teammember',
-    password: 'password',
+    host: 'hackathon-database.czaya4ms4f7p.us-east-1.rds.amazonaws.com',
+    user: 'masteradmin',
+    password: 'uE5!&4ttQ',
     database: 'hackathondatabase',
 });
 
