@@ -7,7 +7,20 @@ function NavBar(props) {
 
     return (
         <>
+        <nav>
+            <div>
+                <img src = "images/logo.jpg" alt = "logo" />
+            </div>
 
+            <div>
+                <ul>
+                    <li>About Us</li>
+                    <li>Resources</li>
+                    <li>Testimonials</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
         </>
     )
 }
