@@ -13,8 +13,25 @@ function Homepage(props) {
        
          </section>
 
-            <p> :D </p>
-
+         <section class="section2">
+            <div className="gridContainer">
+                <div className="gridItem">
+                    <img src="images/hpIcon1.png" alt="Icon 1"/>
+                    <h2> Title </h2>
+                    <p>Text for item 1</p>
+                </div>
+                <div class="gridItem">
+                     <img src="images/hpIcon2.png" alt="Icon 2"/>
+                    <h2> Title </h2>
+                    <p>Text for item 2</p>
+                </div>
+                 <div class="gridItem">
+                     <img src="images/hpIcon3.png" alt="Icon 3"/>
+                     <h2> Title </h2>
+                     <p>Text for item 3</p>
+                </div>
+            </div>
+        </section>
         </>
     )
 }
