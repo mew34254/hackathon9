@@ -1,4 +1,4 @@
-import './Testimonials.css';
+import './AddTestimonial.css';
 
 import { useState, useEffect } from 'react';
 
@@ -22,7 +22,7 @@ function Testimonials(props) {
             body: JSON.stringify(data)
         };
 
-        const result = await fetch("http://localhost:8080/", requestOptions)
+        const result = await fetch("http://localhost:8080/testimonials", requestOptions)
 
         const resultinJSON = await result.json();
         console.log(resultinJSON)

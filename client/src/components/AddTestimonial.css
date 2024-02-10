@@ -1,0 +1,16 @@
+.AddTestimonial-container {
+    width: 60%;
+
+    margin: 2rem;
+}
+
+.AddTestimonial-form>label,
+.AddTestimonial-form>label>input {
+    display: block;
+
+    width: 70%;
+
+    margin: 1rem 0;
+}
+
+.AddTestimonial-submit-button {}
