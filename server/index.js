@@ -12,9 +12,9 @@ const db = mysql.createPool({
 });
 
 app.get("/", (req, res) => {
-    const sql_insert = "INSERT INTO testimonials (name, message) VALUES ('Janelle Monae', 'So excited to announce my partnership with Financial Fighters!');";
+    const sql_insert = "SELECT * FROM hackathondatabase.testimonials;";
     db.query(sql_insert, (err, result) => {
-        res.send('hello');
+        res.send(sql_insert);
     });
 });
 
