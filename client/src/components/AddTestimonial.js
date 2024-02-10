@@ -22,7 +22,7 @@ function Testimonials(props) {
             body: JSON.stringify(data)
         };
 
-        const result = await fetch("http://localhost:8080/testimonials", requestOptions)
+        const result = await fetch("http://localhost:8080/testimonials/insert", requestOptions)
 
         const resultinJSON = await result.json();
         console.log(resultinJSON)
