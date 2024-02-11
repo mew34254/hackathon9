@@ -7,34 +7,29 @@ function NavBar(props) {
 
     const goHome = () => {
         navigate('/');
-        navigate(0);
     }
 
     const goAbout = () => {
         navigate('/about');
-        navigate(0);
     }
 
     const goResources = () => {
         navigate('/resources');
-        navigate(0);
     }
 
     const goTestimonials = () => {
         navigate('/testimonials');
-        navigate(0);
     }
 
     const goContact = () => {
         navigate('/contact')
-        navigate(0);
     }
 
     return (
         <>
             <nav className="NavBar-nav-bar">
                 <div className="NavBar-logo">
-                    <img src="images/logo.png" alt="logo" onClick={goHome()} />
+                    <img src="images/logo.png" alt="logo" onClick={goHome} />
                 </div>
 
                 <div className="NavBar-nav-bar">
