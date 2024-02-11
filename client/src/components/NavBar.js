@@ -7,22 +7,27 @@ function NavBar(props) {
 
     const goHome = () => {
         navigate('/');
+        navigate(0);
     }
 
     const goAbout = () => {
         navigate('/about');
+        navigate(0);
     }
 
     const goResources = () => {
         navigate('/resources');
+        navigate(0);
     }
 
     const goTestimonials = () => {
         navigate('/testimonials');
+        navigate(0);
     }
 
     const goContact = () => {
         navigate('/contact')
+        navigate(0);
     }
 
     return (
