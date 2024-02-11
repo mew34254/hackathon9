@@ -18,13 +18,25 @@ function Testimonials(props) {
             });
     }, []);
 
+    const [option, setOption] = useState(0);
+
+    function addClick() {
+        if (option == 1) {
+            setOption(0);
+        } else if (option == 0) {
+            setOption(1);
+        }
+    }
+
     return (
         <>
             <NavBar />
             <div className="Testimonials-intro">
                 <h2 className="Testimonials-intro-title">Testimonials</h2>
-                <p>People all over the world are falling victim to cyberattacks.</p>
-                <button className="Testimonials-form-button">Share your story</button>
+                <p>People all over the world are falling victim to cyberattacks. Have you?</p>
+                <button className="Testimonials-form-button">
+                    <a href="#Testimonials-add-container">Share your story</a>
+                </button>
             </div>
             <div className="Testimonials-page-container">
                 <div className="Testimonials-container">
@@ -37,7 +49,19 @@ function Testimonials(props) {
                         </div>
                     ))}
                 </div>
-                <AddTestimonial />
+                <hr />
+                {option === 0 &&
+                    <div id="Testimonials-add-container">
+                        <button className="Testimonials-form-button" onClick={addClick}>Share your story</button>
+                    </div>
+                }
+
+                {option === 1 &&
+                    <div id="Testimonials-add-container">
+                        <AddTestimonial />
+                    </div>
+                }
+
             </div>
         </>
     )
