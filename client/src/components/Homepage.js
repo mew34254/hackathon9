@@ -12,8 +12,8 @@ function Homepage(props) {
             <div className="homepageBanner">
                 <div className="textContainer">
                     <div className="bannerText">
-                        <h1> Welcome to Soemthing </h1>
-                        <p> Some description... </p>
+                        <h1> Welcome to <br/> Financial Fighters! </h1>
+                        <p> Protecting the community since 2024 </p>
                     </div>
                 </div>
                 <img src= "images/columbiaBlue.png" alt="banner"/>
