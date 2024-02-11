@@ -10,20 +10,27 @@ function AboutUs(props) {
     return (
         <>
         <NavBar />
-        <section class = "section1"> 
-        <div className = "initialInterface" >
-            <div className = "textContainer" >
+ 
+        <div className = "image" >
+            <div className = "textContainerAboutUs" >
                 <div className = "welcomeText" >
                     <h1>About <br></br> Us</h1>
-                    <p>This is filler text.</p>
                 </div>
             </div>
-                    <img src = "images/columbiaBlue.png" alt = "About Us Image" />
-        </div>
-        </section>
 
-        <section class = "body"> 
-            <div className = "AboutUs-body" >
+            <div className = "textContainerSub" >
+                        <div className = "subtext" >
+                            <p>This is filler text.</p>
+                        </div>
+            </div>
+
+            <div className = "bottomRightImage" >
+                    <img src = "images/columbiaBlue.png" alt = "About Us Image" />
+                    </div>
+        </div>
+   
+        <div className = "textContainer2">
+            <div className = "body" >
                <h1>Who are we?</h1>
                <p>This is filler text.</p>
                <h1>What are financial scams?</h1>
@@ -31,10 +38,18 @@ function AboutUs(props) {
                <h1>How do we solve it?</h1>
                <p>This is filler text.</p>
             </div>
-                    <div className = "AboutUs-bodyImages" >
-                         <img src = "" alt = "" />
+            </div>
+                    <div className = "bodyImage1" >
+                         <img src = "images/logo.png" alt = "first" />
                     </div>
-        </section>
+
+                    <div className = "bodyImage2" >
+                         <img src = "images/logo.png" alt = "second" />
+                    </div>
+
+                    <div className = "bodyImage3" >
+                         <img src = "images/logo.png" alt = "third" />
+                    </div>
         
         </>
     )
