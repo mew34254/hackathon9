@@ -10,7 +10,7 @@ function Resources(props) {
         <>
             <NavBar />
             <div className="resourcesBanner">
-                <img src="images/columbiaBlue.png" alt="resourcesBanner" />
+                <img src="images/resourcesBanner.jpg" alt="resourcesBanner" />
                 <div className="textContainerResources">
                     <h1> Resources </h1>
                     <p> Empowering Survivors: Tools, Tips, and
