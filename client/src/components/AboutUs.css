@@ -27,7 +27,7 @@
 .textContainerSub {
     background-color: transparent;
     position: absolute;
-    top: 530px;
+    top: 512px;
     right: 550px;
     z-index: 1;
 }
@@ -45,9 +45,25 @@
 .textContainer2 {
     background-color: transparent;
     position: absolute;
-    bottom: -700px;
-    left: 40px;
-    width: 700px;
+    bottom: -230px;
+    left: 125px;
+    width: 800px;
+}
+
+.textContainer3 {
+    background-color: transparent;
+    position: absolute;
+    bottom: -770px;
+    right: 125px;
+    width: 900px;
+}
+
+.textContainer4 {
+    background-color: transparent;
+    position: absolute;
+    bottom: -1050px;
+    left: 125px;
+    width: 800px;
 }
 
 .body h1 {
@@ -58,28 +74,26 @@
     font-size: 20px;
 }
 
-.bodyImage1 img {
-    position: absolute;
-    bottom: -400px;
-    right: 0px;
+.bodyA h1 {
+    font-size: 40px;
 }
 
-.bodyImage2 img {
-    position: absolute;
-    bottom: -620px;
-    right: 0px;
+.bodyA p {
+    font-size: 20px;
 }
 
-.bodyImage3 img {
-    position: absolute;
-    bottom: -850px;
-    right: 0px;
+.bodyB h1 {
+    font-size: 40px;
+}
+
+.bodyB p {
+    font-size: 20px;
 }
 
 .AboutUs-footer {
     position: absolute;
     right: 0px;
-    bottom: -1000px;
+    bottom: -1050px;
 
     width: 100%;
 }
