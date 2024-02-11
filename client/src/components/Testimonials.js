@@ -1,6 +1,7 @@
 import './Testimonials.css';
 import NavBar from './NavBar';
 import AddTestimonial from './AddTestimonial';
+import Footer from './Footer';
 
 import { useState, useEffect } from 'react';
 
@@ -63,6 +64,8 @@ function Testimonials(props) {
                 }
 
             </div>
+
+            <Footer />
         </>
     )
 }
