@@ -21,6 +21,11 @@ function Testimonials(props) {
     return (
         <>
             <NavBar />
+            <div className="Testimonials-intro">
+                <h2 className="Testimonials-intro-title">Testimonials</h2>
+                <p>People all over the world are falling victim to cyberattacks.</p>
+                <button className="Testimonials-form-button">Share your story</button>
+            </div>
             <div className="Testimonials-page-container">
                 <div className="Testimonials-container">
                     <div>
