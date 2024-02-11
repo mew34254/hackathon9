@@ -23,17 +23,17 @@ function Homepage(props) {
                 <div className="gridItem">
                     <img src="images/icon1.png" alt="Icon 1"/>
                     <h2> Prevention </h2>
-                    <p>Text for item 1</p>
+                    <p>Giving consumers tools for prevention</p>
                 </div>
                 <div className="gridItem">
                      <img src="images/icon2.png" alt="Icon 2"/>
                     <h2> Support </h2>
-                    <p>Text for item 2</p>
+                    <p>Promoting community outreach and understanding</p>
                 </div>
                  <div className="gridItem">
                      <img src="images/hpIcon3.png" alt="Icon 3"/>
                      <h2> Awareness </h2>
-                     <p>Text for item 3</p>
+                     <p>Educating others to bring awareness</p>
                 </div>
             </div>
         <Footer/>
