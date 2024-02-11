@@ -28,16 +28,14 @@ function Testimonials(props) {
             </div>
             <div className="Testimonials-page-container">
                 <div className="Testimonials-container">
-                    <div>
-                        {testimonials.map((item) => (
-                            <div>
-                                <div key={item.id}>
-                                    <p>{item.name} says:</p>
-                                    <p>{item.message}</p>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
+                    {testimonials.map((item) => (
+                        <div className="Testimonials-message-container" key={item.id}>
+                            <p>"</p>
+                            <p>{item.message}</p>
+                            <p>"</p>
+                            <p className="Testimonials-name">- {item.name}</p>
+                        </div>
+                    ))}
                 </div>
                 <AddTestimonial />
             </div>
