@@ -12,17 +12,15 @@
 .NavBar-logo>img {
     width: 100px;
     height: 100px;
-
     margin-left: 1em;
-
     cursor: pointer;
+    transition: background-image 0.3s ease;
 }
 
 div.NavBar-nav-bar {
     justify-content: center;
     align-items: center;
 }
-
 ul.NavBar-nav-bar {
     padding-inline-start: 0;
 
