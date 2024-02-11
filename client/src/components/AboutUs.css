@@ -45,7 +45,7 @@
 .textContainer2 {
     background-color: transparent;
     position: absolute;
-    bottom: -230px;
+    bottom: -240px;
     left: 125px;
     width: 800px;
 }
@@ -53,7 +53,7 @@
 .textContainer3 {
     background-color: transparent;
     position: absolute;
-    bottom: -770px;
+    bottom: -900px;
     right: 125px;
     width: 900px;
 }
@@ -61,7 +61,7 @@
 .textContainer4 {
     background-color: transparent;
     position: absolute;
-    bottom: -1050px;
+    bottom: -1280px;
     left: 125px;
     width: 800px;
 }
@@ -93,7 +93,7 @@
 .AboutUs-footer {
     position: absolute;
     right: 0px;
-    bottom: -1050px;
+    bottom: -1330px;
 
     width: 100%;
 }

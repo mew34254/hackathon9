@@ -33,7 +33,7 @@ function AboutUs(props) {
                 <div className="body" >
                     <h1>Who are we?</h1>
                     <p>We are a non-profit dedicated to promoting prevention, awareness, and support for the victims of financial scams. Our goal is to spread resources to those affected by this issue, as well as share their stories, to hopefully one day put an end to these scams.</p>
-            </div>
+                </div>
             </div>
 
             <div className="textContainer3">
@@ -46,16 +46,16 @@ function AboutUs(props) {
                         <strong>Identity Theft:</strong> Thieves steal personal information, such as Social Security numbers, driver's license numbers, or financial account details, to open new accounts, make purchases, or commit other fraudulent activities in the victim's name. <br></br> <br></br>
                         <strong>Credit Card Fraud:</strong> Unauthorized use of someone else's credit card information to make purchases or withdraw cash without their knowledge or consent. <br></br>
                     </p>
-                    </div>
                 </div>
+            </div>
 
-                <div className="textContainer4">
-                    <div className="bodyB" >
+            <div className="textContainer4">
+                <div className="bodyB" >
                     <h1>How do we solve it?</h1>
                     <p>Spreading awareness is critical for preventing financial scams. Utilizing the resources on our website, you can gain access to helpful information, read the stories of those affected, and share your own story to help educate others. Above all, empathy is the key to helping those affected by financial scams.</p>
                     <br></br><br></br><br></br><br></br>
-                    </div>
                 </div>
+            </div>
 
             <div className="AboutUs-footer">
                 <Footer />
