@@ -16,7 +16,7 @@ function Homepage(props) {
                         <p> Some description... </p>
                     </div>
                 </div>
-                <img src= "images/banner.jpg" alt="banner"/>
+                <img src= "images/columbiaBlue.png" alt="banner"/>
             </div>
 
             <div className="gridContainer">
