@@ -8,7 +8,7 @@
     height: 425px;
 }
 
-.textContainer {
+.textContainerAboutUs {
     background-color: transparent;
     position: absolute;
     top: -120px; 
@@ -41,7 +41,7 @@
 }
 
 .body h1 {
-    font-size: ;
+
 }
 
 .bodyImage1 img {

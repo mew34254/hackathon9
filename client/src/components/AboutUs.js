@@ -12,7 +12,7 @@ function AboutUs(props) {
         <NavBar />
  
         <div className = "image" >
-            <div className = "textContainer" >
+            <div className = "textContainerAboutUs" >
                 <div className = "welcomeText" >
                     <h1>About <br></br> Us</h1>
                 </div>

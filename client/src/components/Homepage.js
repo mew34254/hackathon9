@@ -19,7 +19,6 @@ function Homepage(props) {
                 <img src= "images/banner.jpg" alt="banner"/>
             </div>
 
-         <section class="section2">
             <div className="gridContainer">
                 <div className="gridItem">
                     <img src="images/hpIcon1.png" alt="Icon 1"/>
@@ -37,7 +36,6 @@ function Homepage(props) {
                      <p>Text for item 3</p>
                 </div>
             </div>
-        </section>
         <Footer/>
         </>
     )
