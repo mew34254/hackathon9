@@ -11,6 +11,7 @@ function Contact(props) {
         <>
         <NavBar />
 
+<div className = "contactGrid">
         <div className = "profile1">
             <div className = "Kimmi">
                 <img src = "images/Kimmi.jpg" alt = "kimmiPhoto" />
@@ -25,16 +26,16 @@ function Contact(props) {
 
         <div className = "profile3">
             <div className = "James">
-                <img src = "images/Kimmi.jpg" alt = "jamesPhoto" />
+                <img src = "images/jamesheadshot..JPEG" alt = "jamesPhoto" />
             </div>
         </div>
 
         <div className = "profile4">
             <div className = "Matthew">
-                <img src = "images/Kimmi.jpg" alt = "matthewPhoto" />
+                <img src = "images/matthew.jpeg" alt = "matthewPhoto" />
             </div>
         </div>
-
+</div>
         </>
     )
 }

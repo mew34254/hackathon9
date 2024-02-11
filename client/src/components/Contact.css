@@ -1,0 +1,33 @@
+.contactGrid {
+flex-basis: calc(25% - 30px);
+text-align: center;
+gap: 60px;
+}
+
+.Kimmi img {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;;
+}
+
+.Hannah img {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+}
+
+.James img {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+}
+
+.Matthew img {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+}
