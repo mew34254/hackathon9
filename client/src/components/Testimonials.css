@@ -11,6 +11,7 @@
     background-color: #10283b;
 
     text-align: center;
+    font-family: 'Noto-Sans', sans-serif;
     color: #ffffff;
 }
 
@@ -34,6 +35,7 @@
     background-color: #e6be8a;
 
     font-size: 1.2em;
+    font-family: 'Noto-Sans', sans-serif;
 
     cursor: pointer;
 
@@ -70,6 +72,8 @@
     border-radius: 4px;
 
     background-color: #ffffff;
+
+    font-family: 'Barlow', sans-serif;
 
     transition: all 300ms ease-in-out 200ms;
 }
