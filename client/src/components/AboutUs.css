@@ -1,18 +1,63 @@
 /*/ Initial interface /*/
 
-.AboutUs-image {
-
+.bottomRightImage img {
+    position: absolute; 
+    bottom: 0px; 
+    right: 0px; 
+    width: 1250px;
+    height: 425px;
 }
 
-.AboutUs-welcomeText {
+.textContainer {
+    background-color: transparent;
+    position: absolute;
+    top: -120px; 
+    right: 0px; 
+    z-index: 1;
+}
+
+.welcomeText {
+    font-size: 125px;
+}
+
+.textContainerSub {
+    background-color: transparent;
+    position: absolute;
+    top: 530px; 
+    right: 550px; 
+    z-index: 1;
+}
+
+.subtext {
+    font-size: 50px;
 }
 
 /*/ Scroll down to information /*/
 
-.body {
-
+.textContainer2 {
+    background-color: transparent;
+    position: absolute;
+    bottom: -400px;
 }
 
-.bodyImages {
+.body h1 {
+    font-size: ;
+}
 
+.bodyImage1 img {
+    position: absolute; 
+    bottom: -400px;
+    right: 0px; 
+}
+
+.bodyImage2 img {
+    position: absolute; 
+    bottom: -620px;
+    right: 0px; 
+}
+
+.bodyImage3 img {
+    position: absolute; 
+    bottom: -850px;
+    right: 0px; 
 }
