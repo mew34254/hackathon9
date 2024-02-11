@@ -13,20 +13,13 @@ function AboutUs(props) {
         <section class = "section1"> 
             <div className = "AboutUs-image" >
                 <img src = "images/columbiaBlue.png" alt = "About Us Image" />
-                
-            </div>
-
-        </section>
-
-        <section class = "section2"> 
             <div className = "AboutUs-text" >
                <h1>About <br></br> Us</h1>
             </div>
-
             <div className = "AboutUs-subtext" >
                <h2>This is filler text.</h2>
             </div>
-
+            </div>
         </section>
 
         <section class = "body"> 

@@ -1,27 +1,27 @@
 /*/ Initial interface /*/
 
 .AboutUs-image {
-    position: relative;
     width: 100%;
     height: 100px;
-    left: 700px;
 }
 
 .AboutUs-text {
-    text-align: left;
     color: black;
-    font-size: 200px;
+    font-size: 150px;
+}
+
+.AboutUs-subtext {
+    color: black;
+    font-size: 50px;
 }
 
 /*/ Scroll down to information /*/
 
 .body {
-
+    height: 500px;
 }
 
 .bodyImages {
-    position: relative;
     width: 100%;
     height: 500px;
-    left: 700px;
 }
