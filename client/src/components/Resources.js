@@ -1,12 +1,14 @@
 import './Resources.css';
 import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 function Resources(props) {
 
-
     return (
         <>
+        <NavBar/>
             <div className="resourcesBanner">
                 <div className="textContainer">
                         <h1> Welcome to Soemthing </h1>
@@ -16,7 +18,7 @@ function Resources(props) {
             </div>
 
             <div class="container">
-                
+
     <h2>Header Text</h2>
     <div class="grid">
         <div class="card">
@@ -49,8 +51,7 @@ function Resources(props) {
         </div>
     </div>
 </div>
-
-
+<Footer/>
         </>
     )
 }
