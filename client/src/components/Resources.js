@@ -10,15 +10,14 @@ function Resources(props) {
         <>
         <NavBar/>
             <div className="resourcesBanner">
-                <div className="textContainer">
-                        <h1> Welcome to Soemthing </h1>
+                <div className="textContainerResources">
+                        <h1> Resources </h1>
                         <p> Some description... </p>
                 </div>
                 <img src= "images/columbiaBlue.png" alt="resourcesBanner"/>
             </div>
 
-            <div class="container">
-
+     <div class="container">
         <div className="cardHeader"> 
         <h2>Organizations</h2>
         </div>
@@ -59,6 +58,47 @@ function Resources(props) {
         </div>
     </div>
 </div>
+
+<div class="container">
+        <div className="cardHeader"> 
+        <h2>Community Support</h2>
+        </div>
+    <div class="resourcesGrid">
+        <div class="card">
+            <img src="images/resourcesIcon5.png" alt="Image 1"/>
+            <div className="cardText">
+                <h3><a href="https://www.gasa.org/" target="_blank">Global Anti-Scam Alliance</a></h3>
+                <p>sdd blurb</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/resourcesIcon6.jpg" alt="Image 2"/>
+            <div className="cardText">
+                <h3><a href="https://victimconnect.org/" target="_blank">Victim Connect Resource Center</a></h3>
+                <p>Victim Connect is a referral helpline that connects victims of any crime with resources and support services in their area. 
+                    While not specific to financial scams, they can provide assistance and referrals to organizations that offer support for scam victims. </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/resourcesIcon7.png" alt="Image 3"/>
+            <div className="cardText">
+                <h3><a href="https://www.reddit.com/r/Scams/" target="_blank">r/Scams</a></h3>
+                <p>wrtie soemthin about this reddit community...</p>
+            </div>
+        </div>
+        <div className="card">
+            <img src="images/resourcesIcon8.png" alt="Image 4"/>
+            <div class="cardText">
+                <h3><a href="https://www.takefive-stopfraud.org.uk/" target="_blank">Take Five To Stop Fraud</a></h3>
+                <p>Take Five is a national campaign offering straight forward, impartial advice that helps prevent
+                    emails, phone-based and online fraud.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <Footer/>
         </>
     )
