@@ -10,11 +10,12 @@ function Resources(props) {
         <>
         <NavBar/>
             <div className="resourcesBanner">
+                <img src= "images/columbiaBlue.png" alt="resourcesBanner"/>
                 <div className="textContainerResources">
                         <h1> Resources </h1>
-                        <p> Some description... </p>
+                        <p> Empowering Survivors: Tools, Tips, and 
+                            Networks to Safeguard Against Financial Scams</p>
                 </div>
-                <img src= "images/columbiaBlue.png" alt="resourcesBanner"/>
             </div>
 
      <div class="container">
