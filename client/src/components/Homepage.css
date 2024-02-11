@@ -7,7 +7,7 @@
 .textContainer {
     position: absolute;
     top: 130px; 
-    left: 80px; /* Adjust the distance from the left as needed */
+    left: 80px; 
     background-color: rgba(255, 255, 255, 0.9);
     padding: 50px;
     border-radius: 1px;
