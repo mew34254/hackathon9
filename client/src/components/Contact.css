@@ -1,33 +1,21 @@
+.contactHeader {
+    font-size: 50px;
+    text-align: center;
+}
+
 .contactGrid {
-flex-basis: calc(25% - 30px);
-text-align: center;
-gap: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px; 
 }
 
-.Kimmi img {
-    position: absolute;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 200px;;
+.contactItem {
+    text-align: center;
 }
 
-.Hannah img {
-    position: absolute;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 200px;
-}
-
-.James img {
-    position: absolute;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 200px;
-}
-
-.Matthew img {
-    position: absolute;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 200px;
+.contactItem img {
+    width: 60%; 
+    height: auto; 
+    border-radius: 1000%; 
+    overflow: hidden; 
 }
