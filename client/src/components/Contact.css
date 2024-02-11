@@ -25,3 +25,10 @@
 .contactItem img:hover {
     box-shadow: 2px 4px 8px #5a5a5a;
 }
+
+.contactFooter {
+    position: absolute;
+    right: 0px;
+    bottom: -100px;
+    width: 100%;
+}

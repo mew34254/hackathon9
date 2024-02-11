@@ -55,6 +55,10 @@ function Contact(props) {
             </div>
         </div>
 </div>
+
+<div className = "contactFooter">
+<Footer />
+</div>
         </>
     )
 }

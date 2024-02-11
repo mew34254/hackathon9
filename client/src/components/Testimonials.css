@@ -6,19 +6,23 @@
     width: 100%;
     height: 54vh;
 
-    padding: 2rem 0 1rem;
+    padding: 6rem 0 1rem;
 
     background-color: #D5E7FF;
 
     text-align: center;
     font-family: 'Noto-Sans', sans-serif;
-    color: #10283b;
+    color: #000000;
 }
 
 .Testimonials-intro-title {
     margin: 2.4rem 0 0;
 
-    font-size: 5rem;
+    font-size: 6rem;
+}
+
+.Testimonials-intro>p {
+    font-size: 18px;
 }
 
 .Testimonials-intro>button {
@@ -46,7 +50,7 @@
 }
 
 .Testimonials-form-button:hover {
-    background-color: #d0aa7a;
+    background-color: #0a1d2d;
 }
 
 .Testimonials-form-button>a {

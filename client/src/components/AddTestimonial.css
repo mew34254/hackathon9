@@ -41,12 +41,16 @@
 }
 
 .AddTestimonial-submit-button {
+    width: 30%;
+    height: 2rem;
+
+    margin: 0 auto;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
 
     background-color: #d5e7ff;
 
-    font-size: 2em;
+    font-size: 1em;
     color: #000000;
 
     cursor: pointer;
