@@ -8,7 +8,7 @@ import Footer from './Footer';
 function Homepage(props) {
     return (
         <>
-        <section class="section1"> 
+        <NavBar/>
             <div className="homepageBanner">
                 <div className="textContainer">
                     <div className="bannerText">
@@ -18,7 +18,6 @@ function Homepage(props) {
                 </div>
                 <img src= "images/banner.jpg" alt="banner"/>
             </div>
-         </section>
 
          <section class="section2">
             <div className="gridContainer">
