@@ -11,8 +11,8 @@
 .textContainerAboutUs {
     background-color: transparent;
     position: absolute;
-    top: -120px; 
-    right: 0px; 
+    top: -70px; 
+    right: 620px; 
     z-index: 1;
 }
 
@@ -37,11 +37,17 @@
 .textContainer2 {
     background-color: transparent;
     position: absolute;
-    bottom: -400px;
+    bottom: -700px;
+    left: 40px;
+    width: 700px;
 }
 
 .body h1 {
+    font-size: 40px;
+}
 
+.body p {
+    font-size: 20px;
 }
 
 .bodyImage1 img {
