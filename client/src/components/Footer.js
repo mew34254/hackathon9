@@ -10,7 +10,7 @@ function Footer(props) {
                 <p> ©2024 Financial Fighters</p>
             </div> 
             <div className="right">
-                <img src="" />
+                <img src="images/logo.png" />
             </div>
         </footer>
         </>

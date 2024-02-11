@@ -1,9 +1,9 @@
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;  
+    align-items: center;  
     background-color: #ADADAD;
-    padding: 1px;
+    padding: 0px;
     border-top: 1px #10283b;
 }
 .left p {
@@ -11,6 +11,7 @@ footer {
     color: black; 
 }
 .right img {
-    max-width: 30px;
+    max-width: 60px;
+    margin-right: 10px;
     height: auto;
 }
