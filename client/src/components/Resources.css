@@ -18,11 +18,10 @@
 
 /* Grid Components */
 .container {
-    max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
 }
-.grid {
+.resourcesGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
@@ -30,7 +29,14 @@
 .card {
     display: flex;
     background-color: #f9f9f9;
-    border-radius: 8px;
+    border-radius: 10px;
+    transition: transform 0.3s ease; 
+    border: 2px solid #adadad; 
+}
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #10283b; 
 }
 .card img {
     max-width: 200px;
@@ -38,12 +44,15 @@
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
-.card-text {
+.cardText {
     padding: 20px;
 }
-.card-text h3 {
+.cardText h3 {
     margin-top: 0;
 }
-.card-text p {
+.cardText p {
     margin-bottom: 0;
+}
+.cardHeader h2 {
+    font-size: 40px;
 }

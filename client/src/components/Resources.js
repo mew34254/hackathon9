@@ -19,32 +19,34 @@ function Resources(props) {
 
             <div class="container">
 
-    <h2>Header Text</h2>
-    <div class="grid">
+        <div className="cardHeader"> 
+        <h2>Header Text</h2>
+        </div>
+    <div class="resourcesGrid">
         <div class="card">
             <img src="images/resourcesIcon1.jpg" alt="Image 1"/>
-            <div class="card-text">
+            <div class="cardText">
                 <h3>Card Title 1</h3>
                 <p>Some text description for card 1.</p>
             </div>
         </div>
         <div class="card">
             <img src="images/resourcesIcon2.jpg" alt="Image 2"/>
-            <div class="card-text">
+            <div class="cardText">
                 <h3>Card Title 2</h3>
                 <p>Some text description for card 2.</p>
             </div>
         </div>
         <div class="card">
             <img src="images/resourcesIcon3.jpg" alt="Image 3"/>
-            <div class="card-text">
+            <div class="cardText">
                 <h3>Card Title 3</h3>
                 <p>Some text description for card 3.</p>
             </div>
         </div>
         <div class="card">
             <img src="images/resourcesIcon4.jpg" alt="Image 4"/>
-            <div class="card-text">
+            <div class="cardText">
                 <h3>Card Title 4</h3>
                 <p>Some text description for card 4.</p>
             </div>
