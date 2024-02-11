@@ -6,18 +6,22 @@
     right: 0px; 
     width: 1250px;
     height: 425px;
+    z-index: -1;
 }
 
 .textContainerAboutUs {
     background-color: transparent;
     position: absolute;
-    top: -70px; 
-    right: 620px; 
-    z-index: 1;
+    left: 100px; 
+    top: -40px;
+    width: 80%;
+    max-width: 400px;
+    max-height: 0px;
+    margin: 0 auto;
 }
 
 .welcomeText {
-    font-size: 125px;
+    font-size: 120px;
 }
 
 .textContainerSub {
