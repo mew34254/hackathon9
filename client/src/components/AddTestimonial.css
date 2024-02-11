@@ -1,16 +1,41 @@
 .AddTestimonial-container {
     width: 60%;
 
-    margin: 2rem;
+    background-color: #f2f2f2;
 }
 
-.AddTestimonial-form>label,
-.AddTestimonial-form>label>input {
+.AddTestimonial-form>input {
     display: block;
 
-    width: 70%;
-
     margin: 1rem 0;
+    border: none;
+    border-radius: 2px;
+
+    font-size: 1em;
 }
 
-.AddTestimonial-submit-button {}
+.AddTestimonial-name {
+    width: 60%;
+}
+
+.AddTestimonial-message {
+    width: 70%;
+}
+
+.AddTestimonial-submit-button {
+    border: none;
+    border-radius: 5px;
+
+    background-color: #d5e7ff;
+
+    font-size: 2em;
+    color: #000000;
+
+    cursor: pointer;
+
+    transition: all 300ms ease-in-out 200ms;
+}
+
+.AddTestimonial-submit-button:hover {
+    background-color: #bfcee2;
+}

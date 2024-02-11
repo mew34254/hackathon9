@@ -32,16 +32,12 @@ function AddTestimonial(props) {
         <>
             <div className="AddTestimonial-container">
                 <form className="AddTestimonial-form">
-                    <label>
-                        <input placeholder="name" onChange={(event) => {
-                            setName(event.target.value);
-                        }} />
-                    </label>
-                    <label>
-                        <input placeholder="message" onChange={(event) => {
-                            setMessage(event.target.value);
-                        }} />
-                    </label>
+                    <input className="AddTestimonial-name" placeholder="name" onChange={(event) => {
+                        setName(event.target.value);
+                    }} />
+                    <input className="AddTestimonial-message" placeholder="message" onChange={(event) => {
+                        setMessage(event.target.value);
+                    }} />
                 </form>
                 <button className="AddTestimonial-submit-button" type="submit" onClick={submitTestimonial}>Submit</button>
             </div>

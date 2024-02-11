@@ -1,0 +1,11 @@
+.Testimonials-page-container {
+    background-color: #f2f2f2;
+}
+
+.Testimonials-container {
+    display: flex;
+}
+
+.Testimonials-add-testimonials-container {
+    margin: 1rem;
+}

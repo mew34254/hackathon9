@@ -1,6 +1,44 @@
+.NavBar-nav-bar {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+}
+
 /*/ Logo /*/
 
-.logo img {
+.NavBar-logo>img {
     width: 100px;
     height: 100px;
+
+    margin-left: 1em;
+
+    cursor: pointer;
+}
+
+div.NavBar-nav-bar {
+    justify-content: center;
+    align-items: center;
+}
+
+ul.NavBar-nav-bar {
+    padding-inline-start: 0;
+
+    list-style-type: none;
+}
+
+ul.NavBar-nav-bar>li {
+    display: inline-block;
+
+    padding: 0.5em 3em;
+
+    color: #000000;
+
+    cursor: pointer;
+
+    transition: color 300ms ease-in-out 200ms;
+}
+
+ul.NavBar-nav-bar>li:hover {
+    color: #182825;
 }

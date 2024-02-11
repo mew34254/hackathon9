@@ -1,4 +1,5 @@
 import './Testimonials.css';
+import NavBar from './NavBar';
 import AddTestimonial from './AddTestimonial';
 
 import { useState, useEffect } from 'react';
@@ -19,19 +20,22 @@ function Testimonials(props) {
 
     return (
         <>
-            <div className="Testimonials-container">
-                <div>
-                    {testimonials.map((item) => (
-                        <div>
-                            <div key={item.id}>
-                                <p>{item.name}</p>
-                                <p>{item.message}</p>
+            <NavBar />
+            <div className="Testimonials-page-container">
+                <div className="Testimonials-container">
+                    <div>
+                        {testimonials.map((item) => (
+                            <div>
+                                <div key={item.id}>
+                                    <p>{item.name} says:</p>
+                                    <p>{item.message}</p>
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
+                <AddTestimonial />
             </div>
-            <AddTestimonial />
         </>
     )
 }
