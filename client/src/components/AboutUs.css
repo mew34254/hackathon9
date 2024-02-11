@@ -1,27 +1,18 @@
 /*/ Initial interface /*/
 
 .AboutUs-image {
-    width: 100%;
-    height: 100px;
+
 }
 
-.AboutUs-text {
-    color: black;
-    font-size: 150px;
-}
-
-.AboutUs-subtext {
-    color: black;
-    font-size: 50px;
+.AboutUs-welcomeText {
 }
 
 /*/ Scroll down to information /*/
 
 .body {
-    height: 500px;
+
 }
 
 .bodyImages {
-    width: 100%;
-    height: 500px;
+
 }
