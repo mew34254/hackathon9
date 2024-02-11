@@ -26,12 +26,14 @@ function Homepage(props) {
                     <p>Giving consumers tools for prevention</p>
                 </div>
                 <div className="gridItem">
-                     <img src="images/icon2.png" alt="Icon 2"/>
+                     <img src="images/icon2NEW.png" alt="Icon 2"/>
                     <h2> Support </h2>
                     <p>Promoting community outreach and understanding</p>
                 </div>
                  <div className="gridItem">
-                     <img src="images/hpIcon3.png" alt="Icon 3"/>
+                    <div className="icon3Size">
+                     <img src="images/icon3.png" alt="Icon 3"/>
+                      </div>
                      <h2> Awareness </h2>
                      <p>Educating others to bring awareness</p>
                 </div>
