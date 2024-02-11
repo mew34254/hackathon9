@@ -7,6 +7,13 @@ function Resources(props) {
 
     return (
         <>
+            <div className="resourcesBanner">
+                <div className="textContainer">
+                        <h1> Welcome to Soemthing </h1>
+                        <p> Some description... </p>
+                </div>
+                <img src= "images/resourcesBanner.jpg" alt="resourcesBanner"/>
+            </div>
 
         </>
     )
