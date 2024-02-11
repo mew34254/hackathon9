@@ -1,3 +1,44 @@
+.Testimonials-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 54vh;
+
+    padding: 2rem 0 1rem;
+
+    background-color: #10283b;
+
+    color: #ffffff;
+}
+
+.Testimonials-intro-title {
+    margin: 2.4rem;
+
+    font-size: 3rem;
+}
+
+.Testimonials-form-button {
+    width: 14%;
+    height: 3rem;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #e6be8a;
+
+    font-size: 1.2em;
+
+    cursor: pointer;
+
+    transition: all 300ms ease-in-out 200ms;
+}
+
+.Testimonials-form-button:hover {
+    background-color: #d0aa7a;
+}
+
 .Testimonials-page-container {
     background-color: #f2f2f2;
 }
