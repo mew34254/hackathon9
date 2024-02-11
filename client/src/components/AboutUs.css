@@ -1,9 +1,9 @@
 /*/ Initial interface /*/
 
 .bottomRightImage img {
-    position: absolute; 
-    bottom: 0px; 
-    right: 0px; 
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
     width: 1250px;
     height: 425px;
     z-index: -1;
@@ -12,7 +12,7 @@
 .textContainerAboutUs {
     background-color: transparent;
     position: absolute;
-    left: 100px; 
+    left: 100px;
     top: -40px;
     width: 80%;
     max-width: 400px;
@@ -27,13 +27,17 @@
 .textContainerSub {
     background-color: transparent;
     position: absolute;
-    top: 530px; 
-    right: 550px; 
+    top: 530px;
+    right: 550px;
     z-index: 1;
 }
 
 .subtext {
-    font-size: 50px;
+    position: relative;
+
+    left: 500px;
+
+    font-size: 38px;
 }
 
 /*/ Scroll down to information /*/
@@ -55,19 +59,27 @@
 }
 
 .bodyImage1 img {
-    position: absolute; 
+    position: absolute;
     bottom: -400px;
-    right: 0px; 
+    right: 0px;
 }
 
 .bodyImage2 img {
-    position: absolute; 
+    position: absolute;
     bottom: -620px;
-    right: 0px; 
+    right: 0px;
 }
 
 .bodyImage3 img {
-    position: absolute; 
+    position: absolute;
     bottom: -850px;
-    right: 0px; 
+    right: 0px;
+}
+
+.AboutUs-footer {
+    position: absolute;
+    right: 0px;
+    bottom: -1000px;
+
+    width: 100%;
 }
