@@ -1,6 +1,8 @@
 import './Homepage.css';
 import { useNavigate } from 'react-router-dom';
 import { useSate, useEffect } from 'react';
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 
 function Homepage(props) {
@@ -37,6 +39,7 @@ function Homepage(props) {
                 </div>
             </div>
         </section>
+        <Footer/>
         </>
     )
 }

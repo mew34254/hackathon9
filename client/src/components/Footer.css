@@ -1,18 +1,16 @@
 footer {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: flex-end;  
-    background-color: #2c4424;
-    padding: 1px; 
-    border-top: 1px solid #c4ae36;
+    background-color: #ADADAD;
+    padding: 1px;
+    border-top: 1px #10283b;
 }
-.left {
-    order: 1; 
-} 
-.right { 
-    order: 2;
+.left p {
+    margin-left: 10px;
+    color: black; 
 }
 .right img {
-    max-width: 30px; 
-    height: auto; 
+    max-width: 30px;
+    height: auto;
 }
