@@ -41,10 +41,21 @@
     padding: 60px;
     background-color: #f2f2f2; 
 }
+.gridItem h2 {
+    font-size: 30px;
+}
+.gridItem p {
+    font-size: 20px;
+}
 .gridItem img {
     width: 300px; 
     height: 200px; 
     margin-bottom: 10px; 
+    transition: transform 0.3s ease;
+}
+.gridItem:hover img {
+    transform: translateY(-5px); 
+    filter: brightness(180%); 
 }
 .icon3Size img {
     width: 200px; 
