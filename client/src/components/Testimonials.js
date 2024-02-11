@@ -50,7 +50,7 @@ function Testimonials(props) {
                         </div>
                     ))}
                 </div>
-                <hr />
+
                 {option === 0 &&
                     <div id="Testimonials-add-container">
                         <button className="Testimonials-form-button" onClick={addClick}>Share your story</button>
